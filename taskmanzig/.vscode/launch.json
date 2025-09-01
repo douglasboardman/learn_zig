@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug TaskManZig",
+      "program": "${workspaceFolder}/zig-out/bin/taskmanzig",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "zig build"
+    }
+  ]
+}
